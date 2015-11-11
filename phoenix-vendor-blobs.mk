@@ -497,7 +497,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/phoenix/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lenovo/phoenix/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/lenovo/phoenix/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/lenovo/phoenix/proprietary/lib64/libcnefeatureconfig.so:system/lib64/libcnefeatureconfig.so \
     vendor/lenovo/phoenix/proprietary/lib64/librmnetctl.so:system/lib64/librmnetctl.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
