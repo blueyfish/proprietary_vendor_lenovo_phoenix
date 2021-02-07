@@ -521,64 +521,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_flashlight.so:system/vendor/lib/mmi_flashlight.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_keypadbacklight.so:system/vendor/lib/mmi_keypadbacklight.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_flashlight.so:system/vendor/lib64/mmi_flashlight.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_keypadbacklight.so:system/vendor/lib64/mmi_keypadbacklight.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libmmi.so:system/vendor/lib64/libmmi.so \
     vendor/lenovo/phoenix/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/lenovo/phoenix/proprietary/bin/fmfactorytest:system/bin/fmfactorytest \
     vendor/lenovo/phoenix/proprietary/bin/fmfactorytestserver:system/bin/fmfactorytestserver \
     vendor/lenovo/phoenix/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
-    vendor/lenovo/phoenix/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
-    vendor/lenovo/phoenix/proprietary/bin/mmi:system/bin/mmi \
-    vendor/lenovo/phoenix/proprietary/etc/MMI_PCBA.cfg:system/etc/MMI_PCBA.cfg \
-    vendor/lenovo/phoenix/proprietary/etc/mmi.cfg:system/etc/mmi.cfg \
-    vendor/lenovo/phoenix/proprietary/etc/mmi/strings.xml:system/etc/mmi/strings.xml \
-    vendor/lenovo/phoenix/proprietary/etc/mmi/strings-zh-rCN.xml:system/etc/mmi/strings-zh-rCN.xml \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_audio.so:system/vendor/lib/mmi_audio.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_audio.so:system/vendor/lib64/mmi_audio.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_battery.so:system/vendor/lib/mmi_battery.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_battery.so:system/vendor/lib64/mmi_battery.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_bt.so:system/vendor/lib/mmi_bt.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_bt.so:system/vendor/lib64/mmi_bt.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_fm.so:system/vendor/lib/mmi_fm.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_fm.so:system/vendor/lib64/mmi_fm.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_gps_garden.so:system/vendor/lib/mmi_gps_garden.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_gps_garden.so:system/vendor/lib64/mmi_gps_garden.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_gsensor.so:system/vendor/lib/mmi_gsensor.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_gsensor.so:system/vendor/lib64/mmi_gsensor.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_gyroscope.so:system/vendor/lib/mmi_gyroscope.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_gyroscope.so:system/vendor/lib64/mmi_gyroscope.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_key.so:system/vendor/lib/mmi_key.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_key.so:system/vendor/lib64/mmi_key.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_lcd.so:system/vendor/lib/mmi_lcd.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_lcd.so:system/vendor/lib64/mmi_lcd.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_led.so:system/vendor/lib/mmi_led.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_led.so:system/vendor/lib64/mmi_led.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_lsensor.so:system/vendor/lib/mmi_lsensor.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_lsensor.so:system/vendor/lib64/mmi_lsensor.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_msensor.so:system/vendor/lib/mmi_msensor.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_msensor.so:system/vendor/lib64/mmi_msensor.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_nfc.so:system/vendor/lib/mmi_nfc.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_nfc.so:system/vendor/lib64/mmi_nfc.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_psensor.so:system/vendor/lib/mmi_psensor.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_psensor.so:system/vendor/lib64/mmi_psensor.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_sdcard.so:system/vendor/lib/mmi_sdcard.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_sdcard.so:system/vendor/lib64/mmi_sdcard.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_sim.so:system/vendor/lib/mmi_sim.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_sim.so:system/vendor/lib64/mmi_sim.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_sysinfo.so:system/vendor/lib/mmi_sysinfo.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_sysinfo.so:system/vendor/lib64/mmi_sysinfo.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_touch.so:system/vendor/lib/mmi_touch.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_touch.so:system/vendor/lib64/mmi_touch.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_touchpanel.so:system/vendor/lib/mmi_touchpanel.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_touchpanel.so:system/vendor/lib64/mmi_touchpanel.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_vibrator.so:system/vendor/lib/mmi_vibrator.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_vibrator.so:system/vendor/lib64/mmi_vibrator.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_volume.so:system/vendor/lib/mmi_volume.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_volume.so:system/vendor/lib64/mmi_volume.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_wifi.so:system/vendor/lib/mmi_wifi.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_wifi.so:system/vendor/lib64/mmi_wifi.so
-
+    vendor/lenovo/phoenix/proprietary/bin/ftmdaemon:system/bin/ftmdaemon
