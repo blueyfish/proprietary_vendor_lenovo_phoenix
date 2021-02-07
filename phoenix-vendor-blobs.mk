@@ -457,6 +457,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/phoenix/proprietary/bin/perfd:system/bin/perfd \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/lenovo/phoenix/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/lenovo/phoenix/proprietary/bin/vm_bms:system/bin/vm_bms \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libdsutils.so:system/vendor/lib64/libdsutils.so \
