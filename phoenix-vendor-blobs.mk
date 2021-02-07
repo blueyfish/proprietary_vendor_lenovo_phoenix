@@ -369,6 +369,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/phoenix/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
     vendor/lenovo/phoenix/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/lenovo/phoenix/proprietary/vendor/lib64/libcalmodule_memsic.so:system/vendor/lib64/libcalmodule_memsic.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
