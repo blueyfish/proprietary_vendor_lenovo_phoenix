@@ -525,8 +525,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/phoenix/proprietary/vendor/lib/mmi_keypadbacklight.so:system/vendor/lib/mmi_keypadbacklight.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_flashlight.so:system/vendor/lib64/mmi_flashlight.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/mmi_keypadbacklight.so:system/vendor/lib64/mmi_keypadbacklight.so \
-    vendor/lenovo/phoenix/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/lenovo/phoenix/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libmmi.so:system/vendor/lib/libmmi.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libmmi.so:system/vendor/lib64/libmmi.so \
     vendor/lenovo/phoenix/proprietary/bin/fmconfig:system/bin/fmconfig \
