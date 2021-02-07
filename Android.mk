@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),ferrari)
+ifeq ($(TARGET_DEVICE),phoenix)
 ifeq ($(QCPATH),)
 
 include $(CLEAR_VARS)
