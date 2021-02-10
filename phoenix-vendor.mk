@@ -38,4 +38,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtime_genoff
 
+PRODUCT_PACKAGES += \
+    libqcci_legacy \
+    libqmi \
+    libqmiservices
+
 $(call inherit-product, vendor/lenovo/phoenix/phoenix-vendor-blobs.mk)
