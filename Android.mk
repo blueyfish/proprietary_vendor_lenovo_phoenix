@@ -177,6 +177,18 @@ include $(BUILD_PREBUILT)
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib/egl && pushd $(PRODUCT_OUT)/system/vendor/lib > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
 $(shell mkdir -p $(PRODUCT_OUT)/system/vendor/lib64/egl && pushd $(PRODUCT_OUT)/system/vendor/lib64 > /dev/null && ln -s egl/libEGL_adreno.so libEGL_adreno.so && popd > /dev/null)
 
+$(shell mkdir -p $(PRODUCT_OUT)/system/vendor/firmware/keymaster; \
+    ln -sf /firmware/image/keymaste.b00 \
+		$(PRODUCT_OUT)/system/vendor/firmware/keymaster/keymaster.b00; \
+	ln -sf /firmware/image/keymaste.b01 \
+		$(PRODUCT_OUT)/system/vendor/firmware/keymaster/keymaster.b01; \
+	ln -sf /firmware/image/keymaste.b02 \
+		$(PRODUCT_OUT)/system/vendor/firmware/keymaster/keymaster.b02; \
+	ln -sf /firmware/image/keymaste.b03 \
+		$(PRODUCT_OUT)/system/vendor/firmware/keymaster/keymaster.b03; \
+	ln -sf /firmware/image/keymaste.mdt \
+		$(PRODUCT_OUT)/system/vendor/firmware/keymaster/keymaster.mdt)
+
 endif
 endif
 
