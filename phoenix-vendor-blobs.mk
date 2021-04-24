@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/lenovo/phoenix/proprietary/etc/firmware/seltech_mono.cnt:system/etc/firmware/seltech_mono.cnt \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib64/libacdbrtac.so:system/vendor/lib64/libacdbrtac.so \
