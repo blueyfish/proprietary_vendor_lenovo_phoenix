@@ -70,9 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libactuator_dw9761.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9761.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libactuator_dw9761_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9761_camcorder.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libactuator_dw9761_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9761_camera.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/libactuator_dw9761b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9761b.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/libactuator_dw9761b_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9761b_camcorder.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/libactuator_dw9761b_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9761b_camera.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
@@ -115,7 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libmmcamera2_vpe_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_vpe_module.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libmmcamera2_wnr_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_wnr_module.so \
-    vendor/lenovo/phoenix/proprietary/vendor/lib/libmmcamera_dw9761b_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dw9761b_eeprom.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libmmcamera_faceproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_faceproc.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_gb_lib.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libmmcamera_hdr_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hdr_lib.so \
