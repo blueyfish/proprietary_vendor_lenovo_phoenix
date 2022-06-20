@@ -94,6 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a3xx.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a4xx.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libchromatix_ov13850_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_common.so \
+    vendor/lenovo/phoenix/proprietary/vendor/lib/libchromatix_ov13850_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_default_video.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libchromatix_ov13850_hfr_120fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_hfr_120fps.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libchromatix_ov13850_hfr_60fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_hfr_60fps.so \
     vendor/lenovo/phoenix/proprietary/vendor/lib/libchromatix_ov13850_hfr_90fps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov13850_hfr_90fps.so \
